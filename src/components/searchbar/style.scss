@@ -10,8 +10,8 @@
     position: absolute;
     left:65px;
     top:169px;
-  }
-  .input{
+}
+.input{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,22 +25,49 @@
     flex: none;
     order:1;
     flex-grow: 0;
-  }
-  .searchicon{
+}
+.searchicon{
     position: absolute;
     margin-left: 350px;
-  }
-  .search{
+}
+.search{
     position: absolute;
     margin-left: 380px;
-  }
-  .star{
+}
+.star{
     position: absolute;
     margin-left: 1200px;
     margin-bottom:37px;
-  }
-  .favori{
+}
+.favori{
     position: absolute;
     margin-left: 1185px;
     margin-top: 40px;
+}
+@media(max-width:991px) {
+  .input{
+      display: none;
+  }
+  .search{
+      display: none;
+  }
+  .searchicon{
+      display: none;
+  }
+  .star{
+      display: none;
+  }
+  .favori{
+      display: none;
+   }
+    .starnprofile
+    {
+      display:flex;
+    }
+}
+@media (max-width: 991px) {
+    .starnprofile {
+      float: right;
+      display: block;
+    }
   }
