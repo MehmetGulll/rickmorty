@@ -1,0 +1,42 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    width: 96px;
+    height: 42px;
+    margin-top: 681px;
+  }
+  .titledown{
+    width: 71px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size:32px;
+    line-height: 39px;
+  }
+  .titlenumbercolor{
+    background-color: #B3FFBF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap:10px;
+    width: 49px;
+    height: 37px;
+    border-radius: 4px;
+  }
+  .titlenumber{
+    width: 33px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color:#202020
+  }
+  .vector{
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 8px;
+  }
