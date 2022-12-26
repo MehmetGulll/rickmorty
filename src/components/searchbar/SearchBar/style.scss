@@ -1,6 +1,9 @@
+$color : #F5F5F5;
+$font : 'Inter';
+$pos : absolute;
 .container{
     width: 1440px;
-    background-color: #F5F5F5;
+    background-color: $color;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,29 +21,26 @@
     padding: 16px;
     width: 700px;
     height: 56px;
-    background-color: #FFFFFF;
+    background-color: $color;
     border-radius: 8px;
     margin-right: 380px;
     font-size: 30px;
-    flex: none;
-    order:1;
-    flex-grow: 0;
   }
   .searchicon{
-    position: absolute;
-    margin-left: 350px;
+    position: $pos;
+    left: 490px;
   }
   .search{
-    position: absolute;
-    margin-left: 380px;
+    position: $pos;
+    left: 530px;
   }
   .star{
-    position: absolute;
-    margin-left: 1200px;
-    margin-bottom:37px;
+    position: $pos;
+    left: 1346px;
+    bottom:60px;
   }
   .favori{
-    position: absolute;
-    margin-left: 1185px;
-    margin-top: 40px;
+    position: $pos;
+    left: 1328px;
+    top: 75px;
   }

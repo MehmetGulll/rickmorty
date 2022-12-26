@@ -1,23 +1,22 @@
 import React from 'react'
-import digieggs from '../digieggs.svg'
-import searchicon from '../searchicon.svg'
-import search from '../search.svg'
-import star from '../star.svg'
-import favorites from '../favorites.svg'
-import '../App.css'
-function index() {
+import {ReactComponent as Digieggs} from '../digieggs.svg'
+import {ReactComponent as Searchicon} from '../searchicon.svg'
+import {ReactComponent as Search} from '../search.svg'
+import {ReactComponent as Star} from '../star.svg'
+import {ReactComponent as Favorites} from '../favorites.svg'
+
+import '../style.scss'
+function SearchBar() {
   return (
-    <div>
-      <div className='container'>
-        <img src={digieggs} className='digieggs' alt=""></img>
-        <input type="text" className='input' placeholder=''></input>
-        <img src ={searchicon} className='searchicon' alt=""></img>
-        <img src = {search} className='search' alt=""></img>
-        <img src={star} className='star' alt=""></img>
-        <img src={favorites} className='favori' alt=""></img>
-       </div>
+    <div className='container'>
+        <Digieggs className='digieggs'/>
+        <input type="text" className="input" placeholder=''></input>
+        <Searchicon className="searchicon"/>
+        <Search className = "search"/>
+        <Star className = "star"/>
+        <Favorites className="favori"/>
     </div>
   )
 }
 
-export default index
+export default SearchBar
