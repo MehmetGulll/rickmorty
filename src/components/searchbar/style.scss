@@ -1,6 +1,7 @@
+@import '.../theme/theme.scss';
 .container{
-    width: 1440px;
-    background-color: #F5F5F5;
+    width: 1232px;
+    background-color: $episodeBackgroundColor;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,66 +9,38 @@
     padding: 16px 144px;
     height: 88px;
     position: absolute;
-    left:65px;
-    top:169px;
+    left:0px;
+    top:0px;
 }
+
+  
 .input{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 16px;
-    width: 700px;
+    width: 800px;
     height: 56px;
-    background-color: #FFFFFF;
+    background-color: $episodeBackgroundColor;
     border-radius: 8px;
-    margin-right: 380px;
     font-size: 30px;
-    flex: none;
-    order:1;
-    flex-grow: 0;
+    margin-right: 200px;
 }
 .searchicon{
     position: absolute;
-    margin-left: 350px;
+    left: 360px;
 }
 .search{
     position: absolute;
-    margin-left: 380px;
+    left: 400px;
 }
 .star{
     position: absolute;
-    margin-left: 1200px;
-    margin-bottom:37px;
+    left: 1346px;
+    bottom:60px;
 }
 .favori{
     position: absolute;
-    margin-left: 1185px;
-    margin-top: 40px;
+    left: 1328px;
+    top: 75px;
 }
-@media(max-width:991px) {
-  .input{
-      display: none;
-  }
-  .search{
-      display: none;
-  }
-  .searchicon{
-      display: none;
-  }
-  .star{
-      display: none;
-  }
-  .favori{
-      display: none;
-   }
-    .starnprofile
-    {
-      display:flex;
-    }
-}
-@media (max-width: 991px) {
-    .starnprofile {
-      float: right;
-      display: block;
-    }
-  }
