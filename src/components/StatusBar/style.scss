@@ -1,0 +1,40 @@
+@import '.../theme/theme.scss';
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap:10px;
+  
+    position: absolute;
+    width: 450px;
+    height: 81px;
+    left: 176px;
+    top: 469px;
+    background-color: #4A614D;
+    border-radius: 8px;
+}
+.status{
+    width: 39px;
+    height: 15px;
+  
+    font-family: $font;
+    font-style: $fontstyle;
+    font-weight: 700;
+    font-size:16px;
+    line-height: 15px;
+    color : $textcolor;
+    margin-top:9px;
+    margin-left: 9px;
+  
+}
+.male{
+    width: 46px;
+    height: 24px;
+    font-family: $font;
+    font-style: $fontstyle;
+    font-size:25px;
+    color : $textcolor;
+    margin-top: 10px;
+    margin-left: 9px;
+}
